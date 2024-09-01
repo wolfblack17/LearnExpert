@@ -1,469 +1,523 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>LearnExpert</title>
-    <meta charset="utf - 8" />
-    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="w-auto">
+</head>
+
+<body class="w-auto">
     <header class="px-[196px] py-[28px] bg-cyan-50 relative">
-      <div class="flex items-center mb-[60px] justify-between">
-        <div class="flex items-center gap-[10px]">
-          <img src="./img/logo.svg" alt="" />
-          <p class="text-[#252b42] font-bold">LearnExpert</p>
-        </div>
-        <ul class="text-[#252b42] font-bold lg:gap-x-16 lg:flex lg:items-center hidden">
-          <li>
-            <a href="#"><div>Home</div></a>
-          </li>
-          <li>
-            <a href="#"><div>About</div></a>
-          </li>
-          <li>
-            <a href="#"><div>Contact</div></a>
-          </li>
-          <li>
-            <a href="#"><div>Blog</div></a>
-          </li>
-        </ul>
-        <button
-          class="inline-flex bg-white font-bold px-[24px] py-[6px] rounded-[25px]"
-        >
-          Sign up
-        </button>
-      </div>
-      <div class="flex items-center gap-12 pb-[63px] ">
-        <div>
-          <p class="text-5xl text-[#252B42] font-extrabold mb-[25px]">
-            Unlock Your Learning Potential with <br />
-            <span class="text-[#31A0FE]">LearnXpert</span>.
-          </p>
-          <p class="text-sm text-[#737373] mb-[54px]">
-            Embrace life's vastness, venture forth, and discover the wonders
-            waiting beyond. The world beckons; seize its grand offerings now!
-          </p>
-          <div class="flex gap-[24px] mb-[52px]">
-            <button
-              class="rounded-3xl font-bold text-white px-[40px] py-[10px] bg-[#31A0FE]"
-            >
-              Join Class
-            </button>
-            <button class="rounded-3xl font-bold px-[40px] py-[10px] bg-white">
-              Get Started
-            </button>
-          </div>
-          <div class="flex justify-between">
-            <div class="flex gap-[10px]">
-              <div
-                class="size-[24px] bg-[#252B42] rounded-full flex justify-center items-center"
-              >
-                <img src="./img/check.svg" alt="hero" />
-              </div>
-              <p>Make a Claim</p>
+        <div class="flex items-center mb-[60px] justify-between">
+            <div class="flex items-center gap-[10px]">
+                <img src="./img/logo.svg" alt="LearnExpert Logo" />
+                <p class="text-[#252b42] font-bold">LearnExpert</p>
             </div>
-            <div class="flex gap-[10px]">
-              <div
-                class="size-[24px] bg-[#252B42] rounded-full flex justify-center items-center"
-              >
-                <img src="./img/check.svg" alt="hero" />
-              </div>
-              <p>Find an Agent</p>
+            <ul class="text-[#252b42] font-bold lg:gap-x-16 lg:flex lg:items-center hidden">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <button class="inline-flex bg-white font-bold px-[24px] py-[6px] rounded-[25px]">
+                Sign up
+            </button>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center gap-12 pb-[63px]">
+            <div>
+                <p class="text-5xl text-[#252B42] font-extrabold mb-[25px]">
+                    Unlock Your <br> Learning <br> Potential with <br>
+                    <span class="text-[#31A0FE]">LearnXpert</span>.
+                </p>
+                <p class="text-sm text-[#737373] mb-[54px]">
+                    Embrace life's vastness, venture forth, and <br> discover the wonders
+                    waiting beyond. The world <br> beckons; seize its grand offerings now!
+                </p>
+                <div class="flex gap-[24px] mb-[52px]">
+                    <button class="rounded-3xl font-bold text-white px-[40px] py-[10px] bg-[#31A0FE]">
+                        Join Class
+                    </button>
+                    <button class="rounded-3xl font-bold px-[40px] py-[10px] bg-white">
+                        Get Started
+                    </button>
+                </div>
+                <div class="flex justify-between">
+                    <div class="flex gap-[10px]">
+                        <div class="size-[24px] bg-[#252B42] rounded-full flex justify-center items-center">
+                            <img src="./img/check.svg" alt="Make a Claim" />
+                        </div>
+                        <p>Make a Claim</p>
+                    </div>
+                    <div class="flex gap-[10px]">
+                        <div class="size-[24px] bg-[#252B42] rounded-full flex justify-center items-center">
+                            <img src="./img/check.svg" alt="Find an Agent" />
+                        </div>
+                        <p>Find an Agent</p>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="lg:w-[593px] mb-10 mx-auto">
+                <img src="./img/hero.png" alt="Hero Image" class="lg:w-full" />
+            </div>
         </div>
-        <img src="./img/hero.png" alt="hero" />
-      </div>
-   
-      <div class="gap-[31px] flex text-white px-[196px] absolute left-[0] top-[720px]">
-      <div class="bg-[#252B42] px-[53px] py-[35px] flex flex-col items-center rounded-3xl ">
-        <div class="p-4 bg-[#31A0FE] rounded-full size-[72px] mb-[20px]">
-          <img src="./img/icon.svg" alt="icon">
+
+        <div class="gap-[31px] flex text-white px-[196px] absolute left-0 top-[720px] flex-col lg:flex-row">
+            <div class="bg-[#252B42] px-[53px] py-[35px] flex flex-col items-center rounded-3xl">
+                <div class="p-4 bg-[#31A0FE] rounded-full size-[72px] mb-[20px]">
+                    <img src="./img/icon.svg" alt="Learn more skills" />
+                </div>
+                <p class="font-bold text-base mb-[20px]">Learn more skills</p>
+                <p class="font-normal text-center">
+                    The gradual accumulation of information about atomic.
+                </p>
+            </div>
+
+            <div class="bg-[#252B42] px-[53px] py-[35px] flex flex-col items-center rounded-3xl">
+                <div class="p-4 bg-[#31A0FE] rounded-full size-[72px] mb-[20px]">
+                    <img src="./img/icon2.svg" alt="Choose courses" />
+                </div>
+                <p class="font-bold text-base mb-[20px]">Choose courses</p>
+                <p class="font-normal text-center">
+                    The gradual accumulation of information about atomic.
+                </p>
+            </div>
+
+            <div class="bg-[#252B42] px-[53px] py-[35px] flex flex-col items-center rounded-3xl">
+                <div class="p-4 bg-[#31A0FE] rounded-full size-[72px] mb-[20px]">
+                    <img src="./img/icon3.svg" alt="Learn at your own pace" />
+                </div>
+                <p class="font-bold text-base mb-[20px]">Learn at your own pace</p>
+                <p class="font-normal text-center">
+                    The gradual accumulation of information about atomic.
+                </p>
+            </div>
         </div>
-        <p class="font-bold text-base mb-[20px]">Learn more skills</p>
-        <p class="font-normal	text-center">
-          The gradual accumulation of information about atomic.
-        </p>
-      </div>
+    </header>
 
-      <div class="bg-[#252B42] px-[53px] py-[35px] flex flex-col items-center rounded-3xl ">
-        <div class="p-4 bg-[#31A0FE] rounded-full size-[72px] mb-[20px]">
-          <img src="./img/icon2.svg" alt="icon">
+    <div class="mt-[300px]">
+        <div class="flex items-center mt-[100px]">
+            <p class="font-extrabold text-black text-5xl ml-[195px] mr-[420px]">Explore Featured <br>Products</p>
+            <p class="font-bold">View All</p>
         </div>
-        <p class="font-bold text-base mb-[20px]">Choose courses</p>
-        <p class="font-normal	text-center">
-          The gradual accumulation of information about atomic.
-        </p>
-      </div>
+    </div>
 
-      <div class="bg-[#252B42] px-[53px] py-[35px] flex flex-col items-center rounded-3xl ">
-        <div class="p-4 bg-[#31A0FE] rounded-full size-[72px] mb-[20px]">
-          <img src="./img/icon3.svg" alt="icon">
+    <div class="grid lg:grid-cols-3 lg:grid-rows-2 gap-[17px] ml-[197px] mt-[50px] mr-[195px]">
+        <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
+            <img src="./img/product1.png" alt="Product 1" />
+            <div>
+                <p class="font-bold text-black mt-6 mb-1">Figma UI Design</p>
+                <p class="font-semibold text-[#737373]">Esther Howard</p>
+                <div class="flex gap-[6px] mb-2 mt-4">
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                </div>
+                <p>1200 ( Comment )</p>
+            </div>
         </div>
-        <p class="font-bold text-base mb-[20px]">Learn at your own pace</p>
-        <p class="font-normal	text-center">
-          The gradual accumulation of information about atomic.
-        </p>
-      </div> 
-    </div>
-  </header>
-  <div class=" mt-[300px]">
-      <div class="flex items-center">
-        <p class="font-extrabold text-black text-5xl ml-[195px] mr-[420px]">Explore Featured Products</p>
-        <p class="font-bold">View All</p>
-      </div>
-    </div>
-  
 
-    <div class="grid grid-cols-3 grid-rows-2 gap-[17px] ml-[197px] mt-[50px] mr-[195px]">
-  <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
-    <div>
-    <img src="./img/product1.png" alt="">
-    </div>
-    <div>
-    <p class="font-bold	text-black mt-6 mb-1">Figma UI Design</p>
-    <p class="font-semibold text-[#737373] ">Esther Howard</p>
-    <p class="flex gap-[6px] mb-2 mt-4">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-    </p>
-    <p>1200 ( Comment )</p>
-    </div>
-  </div>
-
-  <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
-    <div>
-    <img src="./img/product2.png" alt="">
-    </div>
-    <div>
-    <p class="font-bold	text-black mt-6 mb-1">Figma UI Design</p>
-    <p class="font-semibold text-[#737373] ">Esther Howard</p>
-    <p class="flex gap-[6px] mb-2 mt-4">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-    </p>
-    <p>1200 ( Comment )</p>
-    </div>
-  </div>
-
-  <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
-    <div>
-    <img src="./img/product3.png" alt="">
-    </div>
-    <div>
-    <p class="font-bold	text-black mt-6 mb-1">Figma UI Design</p>
-    <p class="font-semibold text-[#737373] ">Esther Howard</p>
-    <p class="flex gap-[6px] mb-2 mt-4">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-    </p>
-    <p>1200 ( Comment )</p>
-    </div>  
-  </div>
-
-  <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
-    <div>
-    <img src="./img/product4.png" alt="">
-    </div>
-    <div>
-    <p class="font-bold	text-black mt-6 mb-1">Figma UI Design</p>
-    <p class="font-semibold text-[#737373] ">Esther Howard</p>
-    <p class="flex gap-[6px] mb-2 mt-4">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-    </p>
-    <p>1200 ( Comment )</p>
-    </div>  
-  </div>
-
-  <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
-    <div>
-    <img src="./img/product5.png" alt="">
-    </div>
-    <div>
-    <p class="font-bold	text-black mt-6 mb-1">Figma UI Design</p>
-    <p class="font-semibold text-[#737373] ">Esther Howard</p>
-    <p class="flex gap-[6px] mb-2 mt-4">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-    </p>
-    <p>1200 ( Comment )</p>
-    </div>  
-  </div>
-
-  <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
-    <div>
-    <img src="./img/product6.png" alt="">
-    </div>
-    <div>
-    <p class="font-bold	text-black mt-6 mb-1">Figma UI Design</p>
-    <p class="font-semibold text-[#737373] ">Esther Howard</p>
-    <p class="flex gap-[6px] mb-2 mt-4">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-      <img src="./img/stars.svg" alt="">
-    </p>
-    <p>1200 ( Comment )</p>
-    </div>  
-  </div> 
-</div>
-
-<<div class="flex relative py-[168px]">
-  <div class="bg-[#E1F4FF] size-[180px] absolute top-[128px] left-[195px]"></div>
-  <div class="bg-[#D6F1CC] size-[166px] absolute top-[664px] left-[495px]"></div>
-  <div class="absolute top-[168px] left-[239px]"><img src="./img/layer.3.png" alt=""></div>
-
-<div class="ml-[738px] mr-[195px]">
-  <p class="font-bold text-black text-4xl">We take the work off your hands.</p>
-  <p class="mt-6 mb-[47px] font-sm text-[#737373]">Embrace life's vastness, venture forth, and discover the wonders waiting beyond. The world beckons; seize its grand offerings now!</p>
-  <div class="rounded-lg bg-[#252B42] p-6 flex">
-    <div class="rounded-full bg-[#D4EAF6] size-[72px] p-[21px] ">
-      <img src="./img/check.2.svg" alt="">
-    </div>
-    <div class="ml-6 mr-10">
-      <p class="font-bold text-base text-white">Interactive Courses</p>
-      <p class="font-normal	text-sm	text-white mt-[5px]">Things on a very small scale behave like nothing that you have any direct experience</p>
-    </div>
-  </div>
-
-  <div class="rounded-lg bg-[#252B42] mt-[62px] mb-[47px] p-6 flex">
-    <div class="rounded-full bg-[#D4EAF6] size-[72px] p-[21px] ">
-      <img src="./img/check.3.svg" alt="">
-    </div>
-    <div class="ml-6 mr-10">
-      <p class="font-bold text-base text-white">Flexible Learning</p>
-      <p class="font-normal	text-sm	text-white mt-[5px]">Things on a very small scale behave like nothing that you have any direct experience</p>
-    </div>
-  </div>
-
-  <div class="rounded-lg bg-[#252B42] p-6 flex">
-    <div class="rounded-full bg-[#D4EAF6] size-[72px] p-[21px] ">
-      <img src="./img/check.4.svg" alt="">
-    </div>
-    <div class="ml-6 mr-10">
-      <p class="font-bold text-base text-white">Expert Instructors</p>
-      <p class="font-normal	text-sm	text-white mt-[5px]">Things on a very small scale behave like nothing that you have any direct experience</p>e</p> 
-      </div>  
-    </div>
-  </div>
-</div>
-</div>
-<div class="bg-[#252B42] mt-[140px]">
-  <h1 class="font-extrabold text-4xl text-white text-center mb-[25px] pt-[110px]">Ready to Join Us?</h1>
-  <h2 class="font-normal	text-sm	text-white text-center ml-[465px] mr-[468px]">Embrace life's vastness, venture forth, and discover the wonders waiting beyond. The world beckons; seize its grand offerings now!</h2>
- <div class="grid grid-cols-3 gap-2  ml-[199px] mr-[172px] mt-[92px]">
-    <div class="bg-white rounded-lg shadow-lg pl-10">
-      <h1 class="font-bold text-base	text-black mt-10">Basic Plan</h1>
-      <div class="flex">
-        <p class="text-3xl font-bold text-black">20$</p>
-        <div class="ml-4 mr-10">
-        <p class="font-bold text-base text-black">Per Month</p>
-        <p class="font-normal text-xs text-[#737373]">10% Off for yearly subscription</p>
+        <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
+            <img src="./img/product2.png" alt="Product 2" />
+            <div>
+                <p class="font-bold text-black mt-6 mb-1">Figma UI Design</p>
+                <p class="font-semibold text-[#737373]">Esther Howard</p>
+                <div class="flex gap-[6px] mb-2 mt-4">
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                </div>
+                <p>1200 ( Comment )</p>
+            </div>
         </div>
-      </div>
-      <h2 class="font-normal text-xs text-[#737373] mt-[17px] mb-8">Slate helps you see how many more days you need...</h2>
-     <div class="gap-x-4">
-      <div class="flex gap-[10px]">
-        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
+
+        <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
+            <img src="./img/product3.png" alt="Product 3" />
+            <div>
+                <p class="font-bold text-black mt-6 mb-1">Figma UI Design</p>
+                <p class="font-semibold text-[#737373]">Esther Howard</p>
+                <div class="flex gap-[6px] mb-2 mt-4">
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                </div>
+                <p>1200 ( Comment )</p>
+            </div>
         </div>
+
+        <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
+            <img src="./img/product4.png" alt="Product 4" />
+            <div>
+                <p class="font-bold text-black mt-6 mb-1">Figma UI Design</p>
+                <p class="font-semibold text-[#737373]">Esther Howard</p>
+                <div class="flex gap-[6px] mb-2 mt-4">
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                </div>
+                <p>1200 ( Comment )</p>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
+            <img src="./img/product5.png" alt="Product 5" />
+            <div>
+                <p class="font-bold text-black mt-6 mb-1">Figma UI Design</p>
+                <p class="font-semibold text-[#737373]">Esther Howard</p>
+                <div class="flex gap-[6px] mb-2 mt-4">
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                </div>
+                <p>1200 ( Comment )</p>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
+            <img src="./img/product6.png" alt="Product 6" />
+            <div>
+                <p class="font-bold text-black mt-6 mb-1">Figma UI Design</p>
+                <p class="font-semibold text-[#737373]">Esther Howard</p>
+                <div class="flex gap-[6px] mb-2 mt-4">
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                    <img src="./img/stars.svg" alt="Star Rating" />
+                </div>
+                <p>1200 ( Comment )</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex relative py-[168px]">
+        <div class="bg-[#E1F4FF] size-[180px] absolute top-[128px] left-[195px]"></div>
+        <div class="bg-[#D6F1CC] size-[166px] absolute top-[664px] left-[495px]"></div>
+        <div class="absolute top-[168px] left-[239px]">
+            <img src="./img/layer.3.png" alt="Layer 3" />
+        </div>
+
+        <div class="ml-[738px] mr-[195px]">
+            <p class="font-bold text-black text-4xl">We take the work off <br> your hands.</p>
+            <p class="mt-6 mb-[47px] text-sm text-[#737373]">Embrace life's vastness, venture forth, and discover the wonders <br> waiting beyond. The world beckons; seize its grand offerings now!</p>
+
+            <div class="rounded-lg bg-[#252B42] p-6 flex">
+                <div class="rounded-full bg-[#D4EAF6] size-[72px] p-[21px]">
+                    <img src="./img/check.2.svg" alt="Interactive Courses" />
+                </div>
+                <div class="ml-6">
+                    <h5 class="text-white text-base font-bold mb-1">Interactive Courses</h5>
+                    <p class="text-white text-sm font-normal max-w-[350px]">Things on a very small scale behave like nothing <br> that you have any direct experience with.</p>
+                </div>
+            </div>
+
+            <div class="rounded-xl px-5 py-5 flex items-center mb-8">
+                <div class="bg-[#D6F1CC] p-4 rounded-full lg:max-w-[80px]">
+                    <img src="./img/check.3.svg" alt="Flexible Learning" class="w-7" />
+                </div>
+                <div class="ml-6">
+                    <h5 class="text-base font-bold mb-1">Flexible Learning</h5>
+                    <p class="text-sm font-normal max-w-[350px]">Things on a very small scale behave like nothing <br>that you have any direct experience with.</p>
+                </div>
+            </div>
+
+            <div class="rounded-xl px-5 py-5 flex items-center mb-8">
+                <div class="bg-[#F3DCD5] p-4 rounded-full lg:max-w-[80px]">
+                    <img src="./img/check.4.svg" alt="Expert Instructors" class="w-7" />
+                </div>
+                <div class="ml-6">
+                    <h5 class="text-base font-bold mb-1">Expert Instructors</h5>
+                    <p class="text-sm font-normal max-w-[350px]">Things on a very small scale behave like nothing <br>that you have any direct experience with.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-[#252B42] mt-[140px]">
+        <h1 class="font-extrabold text-4xl text-white text-center mb-[25px] pt-[110px]">Ready to Join Us?</h1>
+        <h2 class="font-normal text-sm text-white text-center">Embrace life's vastness, venture forth, and discover the wonders <br> waiting beyond. The world beckons; seize its grand offerings now!</h2>
+
+        <div class="grid lg:grid-cols-3 gap-2 ml-[199px] mr-[172px] mt-[92px]">
+            <div class="bg-white rounded-lg shadow-lg px-10">
+                <h1 class="font-bold text-base text-black mt-10">Basic Plan</h1>
+                <div class="flex">
+                    <p class="text-3xl font-bold text-black">$20</p>
+                    <div class="ml-4 mr-10">
+                        <p class="font-bold text-base text-black">Per Month</p>
+                        <p class="font-normal text-xs text-[#737373]">10% Off for yearly subscription</p>
+                    </div>
+                </div>
+                <h2 class="font-normal text-xs text-[#737373] mt-[17px] mb-8">Slate helps you see how many more days <br> you need...</h2>
+                <div class="gap-x-4">
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Unlimited product updates" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Unlimited product updates</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Unlimited product" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Unlimited product</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Unlimited product" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Unlimited product</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="1GB Cloud storage" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">1GB Cloud storage</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Email and community support" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Email and community support</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-10">
+                        <button class="border-2 border-[#252B42] rounded-full px-[88.5px] py-[6px] text-[#252B42] font-bold">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#E1F4FF] rounded-lg shadow-lg pl-10">
+                <h1 class="font-bold text-base text-black mt-10">Favorite Plan</h1>
+                <div class="flex">
+                    <p class="text-3xl font-bold text-black">$60</p>
+                    <div class="ml-4 mr-10">
+                        <p class="font-bold text-base text-black">Per Month</p>
+                        <p class="font-normal text-xs text-[#737373]">10% Off for yearly subscription</p>
+                    </div>
+                </div>
+                <h2 class="font-normal text-xs text-[#737373] mt-[17px] mb-8">Slate helps you see how many more days <br> you need...</h2>
+                <div class="gap-x-4">
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Unlimited product updates" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Unlimited product updates</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Unlimited product" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Unlimited product</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Unlimited product" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Unlimited product</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="1GB Cloud storage" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">1GB Cloud storage</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Email and community support" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Email and community support</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="bg-[#31A0FE] rounded-full px-[88.5px] py-[6px] text-white font-bold">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg pl-10">
+                <h1 class="font-bold text-base text-black mt-10">Standard Plan</h1>
+                <div class="flex">
+                    <p class="text-3xl font-bold text-black">$40</p>
+                    <div class="ml-4 mr-10">
+                        <p class="font-bold text-base text-black">Per Month</p>
+                        <p class="font-normal text-xs text-[#737373]">10% Off for yearly subscription</p>
+                    </div>
+                </div>
+                <h2 class="font-normal text-xs text-[#737373] mt-[17px] mb-8">Slate helps you see how many more days <br> you need...</h2>
+                <div class="gap-x-4">
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Unlimited product updates" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Unlimited product updates</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Unlimited product" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Unlimited product</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Unlimited product" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Unlimited product</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="1GB Cloud storage" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">1GB Cloud storage</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-[10px]">
+                        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
+                            <img src="./img/check.svg" alt="Email and community support" />
+                        </div>
+                        <div>
+                            <p class="font-semibold text-black">Email and community support</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="border-2 border-[#252B42] rounded-full px-[88.5px] py-[6px] text-[#252B42] font-bold">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-[241px] relative">
+        <h1 class="text-center font-bold text-3xl text-[#252B42] mb-[110.8px]">What Our Learners Say</h1>
+
+        <div class="px-[655px]">
+            <img src="./img/Profile.png" alt="Sophia T" />
+            <div class="mt-4">
+                <p class="font-bold text-[#252B42] px-[25px]">Sophia T</p>
+                <p class="font-normal text-[#737373] text-xs">Director, Producer</p>
+            </div>
+        </div>
+
         <div>
-          <p class="font-semibold text-black ">Unlimited product updates</p>
+            <div class="flex gap-[6px] mt-[32.2px] px-[656px]">
+                <img src="./img/green stars.svg" alt="Green Star Rating" />
+                <img src="./img/green stars.svg" alt="Green Star Rating" />
+                <img src="./img/green stars.svg" alt="Green Star Rating" />
+                <img src="./img/green stars.svg" alt="Green Star Rating" />
+                <img src="./img/stars.svg" alt="Star Rating" />
+            </div>
+            <p class="px-[388px] font-normal text-[#737373] mt-4 mb-[40px]">I'm impressed by the quality of courses and the support from LearnXpert's team. Highly recommended!</p>
         </div>
-      </div>
 
-      <div class="flex gap-[10px]">
-        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
+        <div class="gap-[17px] flex px-[658px] mt-[117.2px] mb-[100px]">
+            <div class="rounded-full bg-[#E1F4FF] size-4"></div>
+            <div class="rounded-full bg-[#31A0FE] size-4"></div>
+            <div class="rounded-full bg-[#E1F4FF] size-4"></div>
         </div>
-        <div>
-          <p class="font-semibold text-black ">Unlimited product </p>
-        </div>
-      </div>
 
-      <div class="flex gap-[10px]">
-        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">Unlimited product</p>
-        </div>
-      </div>
-
-      <div class="flex gap-[10px]">
-        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">1GB  Cloud storage</p>
-        </div>
-      </div>
-
-      <div class="flex gap-[10px]">
-        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">Email and community support</p>
-        </div>
-      </div>
-      
-      <div  class="mb-10">
-        <button class="border-2 border-[#252B42] rounded-full px-[88.5px] py-[6px] text-[#252B42] font-bold">Choose Plan</button>
-      </div>
-      
-      
-     </div> 
+        <div class="absolute top-[127px] left-[128.5px]"><img src="./img/human.1.png" alt="Human 1" /></div>
+        <div class="absolute top-[257px] left-[184px]"><img src="./img/human.2.png" alt="Human 2" /></div>
+        <div class="absolute top-[496px] left-[114px]"><img src="./img/human.3.png" alt="Human 3" /></div>
+        <div class="absolute top-[140px] left-[1095px]"><img src="./img/human.4.png" alt="Human 4" /></div>
+        <div class="absolute top-[368px] left-[1178.5px]"><img src="./img/human.5.png" alt="Human 5" /></div>
     </div>
 
-    <div class="bg-[#E1F4FF] rounded-lg shadow-lg pl-10">
-      <h1 class="font-bold text-base	text-black mt-10">Favorite Plan</h1>
-      <div class="flex">
-        <p class="text-3xl font-bold text-black">60$</p>
-        <div class="ml-4 mr-10">
-        <p class="font-bold text-base text-black">Per Month</p>
-        <p class="font-normal text-xs text-[#737373]">10% Off for yearly subscription</p>
+    <div class="bg-[#E1F4FF] relative">
+        <div class="py-[75px] ml-[285px] mr-[750px]">
+            <p class="font-bold text-3xl text-[#252B42] mb-[25px]">Start Your Learning <br>Journey Today!</p>
+            <p class="font-normal text-[#737373]">Join LearnXpert and embark on a path of continuous <br> growth and knowledge.</p>
         </div>
-      </div>
-      <h2 class="font-normal text-xs text-[#737373] mt-[17px] mb-8">Slate helps you see how many more days you need...</h2>
-     <div class="gap-x-4">
-      <div class="flex gap-[10px]">
-        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">Unlimited product updates</p>
-        </div>
-      </div>
-
-      <div class="flex gap-[10px]">
-        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">Unlimited product </p>
-        </div>
-      </div>
-
-      <div class="flex gap-[10px]">
-        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">Unlimited product</p>
-        </div>
-      </div>
-
-      <div class="flex gap-[10px]">
-        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">1GB  Cloud storage</p>
-        </div>
-      </div>
-
-      <div class="flex gap-[10px]">
-        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">Email and community support</p>
-        </div>
-      </div>
-      
-      <div>
-        <button class="bg-[#31A0FE] rounded-full px-[88.5px] py-[6px] text-white font-bold">Choose Plan</button>
-      </div>
-      
-      
-     </div> 
+        <button class="rounded-lg bg-[#31A0FE] text-white font-bold px-[32px] py-[10px] absolute left-[1031px] top-[152px]">Get Started</button>
     </div>
 
-    <div class="bg-white rounded-lg shadow-lg pl-10">
-      <h1 class="font-bold text-base	text-black mt-10">Standart Plan</h1>
-      <div class="flex">
-        <p class="text-3xl font-bold text-black">40$</p>
-        <div class="ml-4 mr-10">
-        <p class="font-bold text-base text-black">Per Month</p>
-        <p class="font-normal text-xs text-[#737373]">10% Off for yearly subscription</p>
-        </div>
-      </div>
-      <h2 class="font-normal text-xs text-[#737373] mt-[17px] mb-8">Slate helps you see how many more days you need...</h2>
-     <div class="gap-x-4">
-      <div class="flex gap-[10px]">
-        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">Unlimited product updates</p>
-        </div>
-      </div>
+    <footer>
+        <div class="flex py-[80px] px-[197px]">
+            <div class="gap-[19.5px]">
+                <p class="text-2xl font-bold text-[#252B42]">Get In Touch</p>
+                <p class="py-[25px] text-[#737373] text-sm font-normal mr-[317px]">The quick fox jumps over the <br> lazy dog</p>
+                <div class="gap-5 flex">
+                    <img src="./img/fb.png" alt="Facebook" />
+                    <img src="./img/ins.png" alt="Instagram" />
+                    <img src="./img/twitter.png" alt="Twitter" />
+                </div>
+            </div>
 
-      <div class="flex gap-[10px]">
-        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">Unlimited product </p>
-        </div>
-      </div>
+            <div class="mr-[64px]">
+                <p class="text-2xl font-bold text-[#252B42] mb-5">Company Info</p>
+                <div class="font-bold text-[#737373]">
+                    <p>About Us</p>
+                    <p>Career</p>
+                    <p>We are hiring</p>
+                    <p>Blog</p>
+                </div>
+            </div>
 
-      <div class="flex gap-[10px]">
-        <div class="bg-[#2DC071] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
+            <div class="mr-[64px]">
+                <p class="text-2xl font-bold text-[#252B42] mb-5">Features</p>
+                <div class="font-bold text-[#737373]">
+                    <p>Business Marketing</p>
+                    <p>User Analytics</p>
+                    <p>Live Chat</p>
+                    <p>Unlimited Support</p>
+                </div>
+            </div>
         </div>
-        <div>
-          <p class="font-semibold text-black ">Unlimited product</p>
-        </div>
-      </div>
 
-      <div class="flex gap-[10px]">
-        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
+        <div class="bg-[#E1F4FF] font-bold text-[#737373] px-[533px] py-[25px] text-center">
+            Made With Love By Figmaland All Rights Reserved
         </div>
-        <div>
-          <p class="font-semibold text-black ">1GB  Cloud storage</p>
-        </div>
-      </div>
+    </footer>
+</body>
 
-      <div class="flex gap-[10px]">
-        <div class="bg-[#BDBDBD] rounded-full size-8 p-2 mb-4">
-          <img src="./img/check.svg" alt="">
-        </div>
-        <div>
-          <p class="font-semibold text-black ">Email and community support</p>
-        </div>
-      </div>
-      
-      <div>
-        <button class="border-2 border-[#252B42] rounded-full px-[88.5px] py-[6px] text-[#252B42] font-bold">Choose Plan</button>
-      </div>
-      
-      
-     </div> 
-    </div>
- </div>
-</div>
-
-
-    <footer>FOOTER</footer>
-  </body>
 </html>
