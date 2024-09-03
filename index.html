@@ -9,62 +9,63 @@
 </head>
 
 <body class="w-auto">
-    <header class="px-[196px] py-[28px] bg-cyan-50 relative">
-        <div class="flex items-center mb-[60px] justify-between">
-            <div class="flex items-center gap-[10px]">
-                <img src="./img/logo.svg" alt="LearnExpert Logo" />
-                <p class="text-[#252b42] font-bold">LearnExpert</p>
+    <header class="px-4 md:px-10 lg:px-[196px] py-6 bg-cyan-50 relative">
+        <div class="flex items-center mb-6 justify-between">
+            <div class="flex items-center gap-2">
+                <img src="./img/logo.svg" alt="LearnExpert Logo" class="w-8 h-8 md:w-10 md:h-10" />
+                <p class="text-[#252b42] font-bold text-lg md:text-xl">LearnExpert</p>
             </div>
-            <ul class="text-[#252b42] font-bold lg:gap-x-16 lg:flex lg:items-center hidden">
+            <ul class="hidden lg:flex lg:items-center lg:gap-16 text-[#252b42] font-bold">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
-            <button class="inline-flex bg-white font-bold px-[24px] py-[6px] rounded-[25px]">
+            <button class="inline-flex bg-white font-bold px-6 py-2 rounded-full">
                 Sign up
             </button>
         </div>
 
-        <div class="flex flex-col lg:flex-row items-center gap-12 pb-[63px]">
-            <div>
-                <p class="text-5xl text-[#252B42] font-extrabold mb-[25px]">
+        <div class="flex flex-col lg:flex-row items-center gap-6 md:gap-12 pb-10 md:pb-16">
+            <div class="text-center lg:text-left">
+                <p class="text-3xl md:text-4xl lg:text-5xl text-[#252B42] font-extrabold mb-6 md:mb-8">
                     Unlock Your <br> Learning <br> Potential with <br>
                     <span class="text-[#31A0FE]">LearnXpert</span>.
                 </p>
-                <p class="text-sm text-[#737373] mb-[54px]">
-                    Embrace life's vastness, venture forth, and <br> discover the wonders
-                    waiting beyond. The world <br> beckons; seize its grand offerings now!
+                <p class="text-xs md:text-sm text-[#737373] mb-8 md:mb-12">
+                    Embrace life's vastness, venture forth, and <br class="hidden md:block">
+                    discover the wonders waiting beyond. The world <br class="hidden md:block">
+                    beckons; seize its grand offerings now!
                 </p>
-                <div class="flex gap-[24px] mb-[52px]">
-                    <button class="rounded-3xl font-bold text-white px-[40px] py-[10px] bg-[#31A0FE]">
+                <div class="flex gap-4 md:gap-6 mb-8 md:mb-12 justify-center lg:justify-start">
+                    <button class="rounded-3xl font-bold text-white px-6 md:px-8 lg:px-10 py-2 bg-[#31A0FE]">
                         Join Class
                     </button>
-                    <button class="rounded-3xl font-bold px-[40px] py-[10px] bg-white">
+                    <button class="rounded-3xl font-bold px-6 md:px-8 lg:px-10 py-2 bg-white">
                         Get Started
                     </button>
                 </div>
-                <div class="flex justify-between">
-                    <div class="flex gap-[10px]">
-                        <div class="size-[24px] bg-[#252B42] rounded-full flex justify-center items-center">
+                <div class="flex justify-between gap-4 md:gap-6">
+                    <div class="flex gap-2 md:gap-3 items-center">
+                        <div class="w-6 h-6 bg-[#252B42] rounded-full flex justify-center items-center">
                             <img src="./img/check.svg" alt="Make a Claim" />
                         </div>
                         <p>Make a Claim</p>
                     </div>
-                    <div class="flex gap-[10px]">
-                        <div class="size-[24px] bg-[#252B42] rounded-full flex justify-center items-center">
+                    <div class="flex gap-2 md:gap-3 items-center">
+                        <div class="w-6 h-6 bg-[#252B42] rounded-full flex justify-center items-center">
                             <img src="./img/check.svg" alt="Find an Agent" />
                         </div>
                         <p>Find an Agent</p>
                     </div>
                 </div>
             </div>
-            <div class="lg:w-[593px] mb-10 mx-auto">
-                <img src="./img/hero.png" alt="Hero Image" class="lg:w-full" />
+            <div class="w-full lg:w-[593px] mb-10 lg:mb-0 mx-auto">
+                <img src="./img/hero.png" alt="Hero Image" class="w-full lg:w-auto" />
             </div>
         </div>
 
-        <div class="gap-[31px] flex text-white px-[196px] absolute left-0 top-[720px] flex-col lg:flex-row">
+        <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-[31px] text-white px-4 md:px-10 lg:px-[196px] absolute left-0 top-[720px]">
             <div class="bg-[#252B42] px-[53px] py-[35px] flex flex-col items-center rounded-3xl">
                 <div class="p-4 bg-[#31A0FE] rounded-full size-[72px] mb-[20px]">
                     <img src="./img/icon.svg" alt="Learn more skills" />
@@ -104,7 +105,7 @@
         </div>
     </div>
 
-    <div class="grid lg:grid-cols-3 lg:grid-rows-2 gap-[17px] ml-[197px] mt-[50px] mr-[195px]">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-10 lg:px-[195px] mt-10">
         <div class="bg-white rounded-lg shadow-lg flex gap-[24px]">
             <img src="./img/product1.png" alt="Product 1" />
             <div>
@@ -482,7 +483,7 @@
     </div>
 
     <footer>
-        <div class="flex py-[80px] px-[197px]">
+        <div class="flex flex-col lg:flex-row py-10 lg:py-20 px-4 md:px-10 lg:px-[197px] gap-8 lg:gap-0">
             <div class="gap-[19.5px]">
                 <p class="text-2xl font-bold text-[#252B42]">Get In Touch</p>
                 <p class="py-[25px] text-[#737373] text-sm font-normal mr-[317px]">The quick fox jumps over the <br> lazy dog</p>
@@ -514,7 +515,7 @@
             </div>
         </div>
 
-        <div class="bg-[#E1F4FF] font-bold text-[#737373] px-[533px] py-[25px] text-center">
+        <div class="bg-[#E1F4FF] font-bold text-[#737373] px-4 md:px-10 lg:px-[533px] py-4 text-center">
             Made With Love By Figmaland All Rights Reserved
         </div>
     </footer>
